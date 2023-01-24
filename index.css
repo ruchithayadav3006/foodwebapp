@@ -1,0 +1,46 @@
+h1{
+    text-align:center;
+    color:black;
+    background-color: aqua;
+    padding: 40px;
+}
+nav{
+    background-color:yellowgreen;
+    display:grid;
+    place-items:center;
+}
+nav ul a{
+    display: inline-block;
+    padding-right: 20px;
+}
+.item button{
+    padding:5px 30px;
+    background-color: green;
+    color: azure;
+    font-size: 20px;
+    display: block;
+    margin:auto;
+    transition:cubic-bezier(0.23, 1, 0.320, 1);
+}
+.item button:hover{
+    transform: scaleX(1.04);
+}
+.item{
+    width: 300px;
+    display: block;
+ margin:auto;
+}
+.items:hover{
+    transform: scaleX(1.04);
+}
+.item h2{
+    text-align:center;
+}
+body{
+    background-color: grey;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
